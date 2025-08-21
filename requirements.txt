@@ -1,4 +1,8 @@
+streamlit
 pandas
+numpy
 matplotlib
 seaborn
-streamlit
+scikit-learn
+xgboost
+shap
