@@ -289,7 +289,7 @@ elif section == "🎯 Burnout Prediction":
             st.subheader("Lifestyle Factors")
             sleep_hours = st.slider("Sleep Hours per Night", 3.0, 12.0, 7.0, 0.1)
             work_hours = st.slider("Work Hours per Week", 20, 80, 40)
-            physical_activity = st.slider("Physical Activity Hours per Week", 0, 15, 3)
+            physical_activity = st.slider("Physical Activity Hours per Day", 0, 15, 3)
             social_media_usage = st.slider("Social Media Usage Hours per Day", 0.0, 10.0, 3.0, 0.1)
             
             st.subheader("Habits")
